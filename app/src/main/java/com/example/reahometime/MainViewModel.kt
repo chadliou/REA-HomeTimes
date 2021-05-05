@@ -25,7 +25,7 @@ class MainViewModel @ViewModelInject constructor(
     var hometimesSouth = repository.hometimesSouth
 
     /**
-     * Request hometimes api by stopId
+     * Request hometimes api by stopId.
      */
     fun getHometimes(stopId: Int) {
         Log.d("chadpulling", "pulling data..")
