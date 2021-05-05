@@ -28,7 +28,6 @@ class MainViewModel @ViewModelInject constructor(
      * Request hometimes api by stopId.
      */
     fun getHometimes(stopId: Int) {
-        Log.d("chadpulling", "pulling data..")
         repository.getHometimes(stopId)
     }
 
